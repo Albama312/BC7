@@ -1,0 +1,114 @@
+.head-h{
+    display: inline-block;
+    margin-right: 100px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #707070;
+}
+.head-hhh{
+    display: inline-block;
+    margin-right: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #707070;
+}
+.head-hh{
+    margin-left: 250px;
+    margin-right: 100px;
+    display: inline-block;
+    color: #03a9f4;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.head-img{
+    padding: 70px 0 0 ;
+    margin-right: 60px;
+    margin-left: 30px;
+
+}
+.head-img:last-child{
+    margin-right: 0;
+    margin-left: 0;
+}
+.text-img{
+    margin-left: 30px;
+    color: #c2bcb0;
+    display: inline-block;
+    margin-left: 70px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+.text-imgg{
+    margin-left: 30px;
+    color: #c2bcb0;
+    display: inline-block;
+    margin-left: 465px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+.text-text{
+display: inline-block;
+    margin-right: 190px;
+    margin-left:  30px;
+    font-family: 'PT Sans', sans-serif;
+    color: #626262;
+
+}
+.text-text1{
+    margin-right: 0;
+    margin-left:  30px;
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    color: #626262;
+}
+.text-div1{
+    display: inline-block;
+    width: 474px;
+    margin-right: 50px;
+    font-family: 'PT Sans', sans-serif;
+    color: #626262;
+}
+.text-divf{
+    display: inline-block;
+    width: 474px;
+    margin-right: 0;
+    font-family: 'PT Sans', sans-serif;
+    color: #626262;
+}
+.head-img1{
+    padding: 70px 0 0 ;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+.text-textmm {
+    display: inline-block;
+    margin-right: 300px;
+    margin-left:  30px;
+    font-family: 'PT Sans', sans-serif;
+    color: #626262;
+    font-size: 20px;
+}
+.text-textm {
+    margin-right: 0;
+    margin-left:  30px;
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+    color: #626262;
+    font-size: 20px;
+}
+.footer-btn{
+    margin-left:  410px;
+    padding: 16px 30px 16px 30px;
+    background-color: white;
+    color: #626262;
+    border-color: #626262;
+    text-transform: uppercase;
+}
