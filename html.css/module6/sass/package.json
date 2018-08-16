@@ -1,0 +1,16 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass-save": "node-sass src/style.scss -0 css/",
+    "sass-watch": "node-sass --watch src/style.scss -0 css/",
+    "sass-build": "npm run sass-save && npm run sass-watch"
+  },
+  "author": "Its me",
+  "license": "ISC",
+  "description": "My hope",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}

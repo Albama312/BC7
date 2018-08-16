@@ -1,0 +1,52 @@
+.contact{
+    padding: 70px 0 80px;
+}
+.contact-card{
+    width: 250px;
+    margin-right: 80px;
+   float: left;
+}
+.contact-card:last-child{
+    margin-right: 0;
+}
+.title-send::before{
+    background-image: url("../img/send.png");
+    background-repeat: no-repeat;
+    content: "";
+    background-position: center;
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.title-send{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e2e3e4;
+    width: 200px;
+}
+.title-very{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e2e3e4;
+    width: 200px;
+}
+.title-very::before{
+    background-image: url("../img/pencil.png");
+    background-repeat: no-repeat;
+    content: "";
+    background-position: center;
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    margin-right: 15px;
+    display: inline-block;
+}

@@ -1,0 +1,27 @@
+.just{
+    padding: 60px 0  ;
+}
+.just-card{
+    width: 280px;
+}
+.just-img,.just-card{
+    float: left;
+}
+.title-just{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #e2e3e4;
+    width: 295px;
+}
+.text-just{
+    color: #787b80;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 26px;
+}
+.just-img{
+    margin-right: 30px;
+}

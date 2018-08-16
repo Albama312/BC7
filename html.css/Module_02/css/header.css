@@ -1,0 +1,73 @@
+
+.wrapper-header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url('../img/headfon.png');
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
+    background-attachment: fixed;
+}
+.header{
+    padding: 70px 0 120px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+.logo{
+    font-size: 52px;
+    color: white;
+    font-style: italic;
+    display: block;
+    margin-bottom: 45px;
+}
+.nav-link{
+    color: white;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+.navigation{
+    margin-bottom: 80px;
+}
+.main-title{
+    font-size: 53px;
+    color: white;
+   text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 43px;
+}
+.header-text{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 80px;
+
+}
+.header-btn{
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 45px;
+    background-color: #50c3af;
+    border: none;
+    border-radius: 50px;
+
+
+}
+.header-text::before, .header-text::after{
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 2.5px;
+    background-color: rgba(255,255,255,0.24);
+    vertical-align: middle;
+
+}
+.header-text::before{
+    margin-right: 30px;
+}
+.header-text::after{
+    margin-left: 30px;
+}
+
+

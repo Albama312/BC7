@@ -1,0 +1,7 @@
+.bs div[class^="col"]{
+    border: 1px solid white;
+    background-color: #fdd135;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}

@@ -1,0 +1,29 @@
+$colors:(
+  pink1: #fa5c65,
+  title-color: #314a5b,
+  light-text: #fff,
+  light-grey-text: #9aa0ab,
+  social-icons: #b9c0c6,
+  menu-color: #263742,
+);
+
+%montserrat-norm {
+font-family:  'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+%montserrat-bold {
+  font-family:  'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+%Flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+%container{
+  max-width: 900px;
+  margin: auto;
+  flex: 0 1px 900 ;
+}

@@ -2,9 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Modelu04</title>
+    <link rel="stylesheet" href="modyle.css">
+    <meta name="vierport" content="width=">
 </head>
 <body>
-$END$
+<header class="header">
+    <div class="header-inner">
+        <h1 class="header-title">My portofolio</h1>
+        <h2 class="header-subtitle">This is ket4ap</h2>
+        <a href="#" class="header-btn">Call me</a>
+    </div>
+    <div class="header-img"></div>
+</header>
+<main class="main">
+    <div class="portfolio">
+        <h2 class="portfolio-title">PHOTOFOLIO</h2>
+        <div class="portfolio-cards">
+            <div class="portfolio-card">
+                <picture>
+                    <source media="(min-width: 650px)" srcset="img/pugalo.png">
+                    <source media="(min-width: 400px)" srcset="img/4.jpg, ./img/3.jpg 2x">
+                    <img src="img/pr.png" alt="photo" class="portfolio-img">
+                </picture>
+                <h3 class="card-title">Photo one</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="portfolio-card">
+                <img src="img/2.jpg" alt="photo" class="portfolio-img">
+                <h3 class="card-title">Photo two</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="portfolio-card">
+                <img src="img/3.jpg" alt="photo" class="portfolio-img">
+                <h3 class="card-title">Photo three</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div><div class="portfolio-card">
+            <img src="img/4.jpg" alt="photo" class="portfolio-img">
+            <h3 class="card-title">Photo four</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <h2 class="footer-title">Forward</h2>
+    <form action="#" method="post" class="footer-form">
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="text" name="subject" placeholder="What do you want?">
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Send">
+    </form>
+</footer>
 </body>
 </html>

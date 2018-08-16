@@ -1,0 +1,33 @@
+.wrapper-blue{
+    background-color: #50c3af;
+}
+.partners{
+    padding: 53px 0 75px;
+}
+.title-white{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #e2e3e4;
+    width: 260px;
+}
+.title-white{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.partners-list-item{
+    float: left;
+    margin-right: 58px;
+}
+
+.partners-list-item:last-child{
+    margin-right: 0;
+}
+.partners-list-link:nth-last-child(2){
+    margin-right: 50px;
+}

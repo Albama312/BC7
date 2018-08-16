@@ -1,0 +1,65 @@
+.menu{
+    display: block;
+    width: 1000px;
+    height: 75px;
+    margin: auto;
+}
+
+.header-title{
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 41px;
+    font-family: "Wisdom";
+    color: #fdd135;
+    float: left;
+    text-decoration: none;
+}
+.header-menu{
+    text-transform: uppercase;
+    float: right;
+    margin-right: 55px ;
+    text-decoration: none;
+    color: black;
+}
+.header-menu:hover{
+    color: #fdd135;
+}
+.sub-title{
+    text-transform: uppercase;
+    color: black;
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 75px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+.services {
+    width: 1500px;
+    height: 70px;
+    display: block;
+}
+.sub-text{
+    font-size: 16px;
+    color: rgb(119,119,119);
+    font-family: "Droid Serif";
+    font-style: italic;;
+    text-align: center;
+    margin-top: 0;
+}
+.cards{
+    float: left;
+    width: 270px;
+    height: 185px;
+    display: block;
+}
+.card{
+    width: 1500px;
+    height: 200px;
+    margin: auto;
+}
+.card-img{
+    display: block;
+}

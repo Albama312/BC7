@@ -1,0 +1,35 @@
+.text-features{
+    color: #787b80;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 29px;
+}
+.title-features{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #e2e3e4;
+    width: 182px;
+    padding-top: 39px;
+}
+.features{
+    font-size:0;
+    padding: 60px 0 65px;
+}
+.features-card{
+    display: inline-block;
+    vertical-align: top;
+    width: 183px;
+    margin-right: 20px;
+}
+.features-card:last-child{
+    margin-right: 0;
+}
+.features-link{
+    font-size: 14px;
+    color: #50c3af;
+    font-family: 'PT Sans', sans-serif;
+}

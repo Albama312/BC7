@@ -78,9 +78,11 @@ background-blend-mode: overlay;
     margin: auto;
 }
 .cards-footer{
-    float: left;
-    margin-right: 0;
     font-size: 0;
+    width: 255px;
+    position: relative;
+    float: left;
+    margin-right: 30px;
 }
 .footer-title{
     font-size: 30px;
@@ -95,6 +97,7 @@ background-blend-mode: overlay;
 .footer-img{
     display: block;
     margin-right: 30px;
+    justify-content:space-around;
 }
 .footer-img:nth-child(4){
     margin-right: 30px;

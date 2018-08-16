@@ -1,0 +1,44 @@
+.wrapper-grey {
+    background-color: #eeeeef;
+}
+.container{
+    width: 590px;
+    margin: auto;
+}
+.describe{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    font-size: 0;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    vertical-align: top;
+    width: 160px;
+
+}
+.title{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #e2e3e4;
+    width: 135px;
+    margin: 5 auto 25 px;
+    margin: auto;
+    mar
+}
+.text{
+    color: #787b80;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 28px;
+}
+.icon{
+    display: block;
+    width: 43px;
+    height: 43px;
+    margin: 0 auto 32px;
+    /*margin: 5px 10px 25px 45px;*/
+}

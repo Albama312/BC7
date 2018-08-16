@@ -1,0 +1,116 @@
+/*body{*/
+    /*width: 800px;*/
+    /*margin: auto;*/
+    /*display: grid;*/
+    /*grid-template-columns: 400px 400px;*/
+    /*grid-template-rows: 200px 400px 400px 200px ;*/
+    /*grid-template-areas:  "header header"*/
+    /*"about aside"*/
+    /*"foto aside"*/
+    /*"footer footer";*/
+
+/*}*/
+/*header{*/
+    /*grid-area: header ;*/
+    /*background-color: greenyellow;*/
+    /*padding: 20px;*/
+/*}*/
+/*!*main{*!*/
+    /*!*grid-area:main;*!*/
+    /*!*background-color: #03a9f4;*!*/
+    /*!*padding: 20px;*!*/
+/*!*}*!*/
+/*.about{*/
+    /*grid-area:about;*/
+    /*background-color: #fdd135;*/
+    /*padding: 20px;*/
+/*}*/
+/*.foto{*/
+    /*grid-area:foto;*/
+    /*background-image: url("../module_04/img/pugalo.png");*/
+    /*padding: 20px;*/
+/*}*/
+/*aside{*/
+    /*grid-area:aside;*/
+    /*background-color: #1abc9c;*/
+    /*padding: 20px;*/
+/*}*/
+/*footer{*/
+    /*grid-area: footer ;*/
+    /*background-color: blueviolet;*/
+    /*padding: 20px;*/
+/*}*/
+
+@import url('https://fonts.googleapis.com/css?family=Eczar');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Eczar' , serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1, h2, p{
+    padding: 1rem 0;
+
+}
+.btn{
+    background-color: greenyellow;
+    color: red;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 90px;
+    border: 2px solid salmon;
+    transition: 8s;
+}
+.btn:hover{
+    background-color: blueviolet;
+    text-transform: uppercase;
+    border: 50px solid salmon;
+}
+.bg-img{
+    background-image: url("./img/farcry.png");
+    width: 100%;
+    height: 200px;
+background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
